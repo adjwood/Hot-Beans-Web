@@ -1,0 +1,110 @@
+body {
+	background-color: #eee;
+	font-family: 'Spartan';
+	padding-bottom: 60px;
+}
+
+.bean {
+	color: rgb(138,103,82);
+	font-size: 37px;
+
+}
+
+.bean2 {
+	color: rgb(138,103,82);
+	font-size: 40px;
+}
+
+.bean3 {
+	text-align: center;
+	position: relative;
+	
+}
+
+.img {
+	text-align: center;
+	position: relative;
+}
+	
+
+.line {
+	color: #ccc;
+	font-size: 40px;
+}
+
+a.button {
+  background-color: rgb(138,103,82);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+a.button:hover {
+  background-color: #eee;
+  color: black;
+  outline: 1px solid rgb(138,103,82);
+  outline-offset: -2px;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #999;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  
+}
+
+.italics {
+	color: #999;
+}
+
+
+.topnav {
+  background-color: #999;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(138,103,82);
+  color: white;
+}
+
+.contact {
+	text-align: center;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.caption {
+    display: block;
+}
+
