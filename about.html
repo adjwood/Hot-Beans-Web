@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <title>Hot Beans Web - Home</title>
 <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -8,6 +9,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <div class="topnav">
@@ -25,9 +27,9 @@
 <hr class="line">
 
 <div style="display:block;">
-	<div class="item" style="display:inline-block;width:33%;text-align:center;"><img src="img/profiles/bobbycorrigan.jpg" width="50%"><span class="caption">Bobby Corrigan - CEO</span></div>
-	<div style="display:inline-block;width:33%;text-align:center;"><img src="img/profiles/rachelrhoades.jpeg" width="50%"></div>
-	<div style="display:inline-block;width:33%;text-align:center;"><img src="img/profiles/markwilliams.jpg" width="50%"></div>
+	<div class="item" style="display:inline-block;width:33%;text-align:center;"><img class="myBtn" data-img="img/profiles/bobbycorrigan.jpg"  data-heading="<p style='font-size: 25px; text-align: center;'>Bobby Corrigan - CEO</p>" data-info="<p style='text-align: center;'>Bobby is the CEO of Hot Beans Web. He is one of the founders of the company, and has had a key role in its growth. He has a background in trading technology stocks.</p>" src="img/profiles/bobbycorrigan.jpg" width="50%"><span class="caption">Bobby Corrigan - CEO</span></div>
+	<div style="display:inline-block;width:33%;text-align:center;"><img class="myBtn" data-img="img/profiles/rachelrhoades.jpeg" data-heading="<p style='font-size: 25px; text-align: center;'>Rachel Rhoades - Director</p>" data-info="<p style='text-align: center;'>Rachel is one of the Directors of Hot Beans Web. She too was one of the founders. Following a succesful career in marketing, she now plays a key managing role at Hot Beans Web.</p>" src="img/profiles/rachelrhoades.jpeg" width="50%"><span class="caption">Rachel Rhoades - Director</span></div>
+	<div style="display:inline-block;width:33%;text-align:center;"><img class="myBtn" data-img="img/profiles/jamescarder.jpg" data-heading="<p style='font-size: 25px; text-align: center;'>James Carder - Director</p>" data-info="<p style='text-align: center;'>James is also a Director for Hot Beans Web, and a founder. Having spent 10 years as a data analyst, he oversees the lots of the backend development at Hot Beans.</p>" src="img/profiles/jamescarder.jpg" width="50%"><span class="caption">James Carder - Director</span></div>
 </div>
 
 
@@ -35,5 +37,20 @@
 <div class="footer">
 <p>© 2020 - Hot Beans Web - All Rights Reserved</p>
 </div>
+<div id="myModal" class="modal">
+  <div class="modal-header">
+    <span class="close">&times;</span>
+    <h2>Team Info</h2>
+  </div>
+  <div class="modal-body">
+    <p class="acc-tag"></p>
+	<img class="acc-img">
+	<p class="acc-info"></p>
+  </div>
+  <div class="modal-footer">
+    <h3> </h3>
+  </div>
+</div>
+<script src="modal.js"></script>
 </body>
 </html>
